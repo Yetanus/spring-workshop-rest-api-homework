@@ -1,12 +1,14 @@
 package pl.dgadecki.springworkshoprestapi.business.article.domain.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import pl.dgadecki.springworkshoprestapi.business.article.domain.repository.ArticleRepository;
 import pl.dgadecki.springworkshoprestapi.business.article.dto.Article;
 
 import java.util.List;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class ArticleService {
